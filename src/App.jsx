@@ -13,7 +13,7 @@ const PROFILE = {
   fullName: 'Dhanush Palani Vijay Kumari',
   initials: 'DPV',
   email: 'dhanush.palani.vijay.kumari.job@gmail.com',
-  github: 'https://github.com/dhanushpv-25',
+  github: 'https://github.com/Dhanushpv29',
   resume: 'https://drive.google.com/file/d/1q0rXWMYrmPgHnm3mlcB7CxTapwDnf0My/view?usp=sharing',
   photo: Profile,
 };
@@ -101,29 +101,35 @@ const translations = {
 
     projects: {
       title: 'Ausgewählte Projekte',
+      viewCode: 'Code auf GitHub ansehen',
       items: [
         {
           title: 'Ticketing- und Zahlungsplattform für hohe Last',
+          url: 'https://github.com/Dhanushpv29/High-concurrency-booking-platform',
           description: 'Ein Ticketing-Backend, bei dem tausende Nutzer gleichzeitig um dieselben begrenzten Plätze konkurrieren. Atomare Platzreservierungen nutzen Row-Level-Locking und Datenbank-Constraints, sodass kein Platz doppelt verkauft wird; verwaiste Reservierungen laufen automatisch ab, und idempotente Zahlungs- und Webhook-Verarbeitung beherrscht Wiederholungen, doppelte Ereignisse und verspätete Zahlungen, bei Bedarf mit automatischer Rückerstattung. Tickets mit QR-Code und PDF werden asynchron erzeugt.',
           stack: ['Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'Celery', 'Redis', 'pytest-django', 'Docker', 'Gunicorn', 'Nginx']
         },
         {
           title: 'Multi-Tenant-Logistik-SaaS',
+          url: 'https://github.com/Dhanushpv29/Multi-tenant-Saas-with-billing-and-webhooks',
           description: 'Eine Multi-Tenant-SaaS-Plattform für Lieferunternehmen mit Flotten-, Fahrer-, Kunden- und Lieferverwaltung, rollenbasiertem Zugriff und Mandantentrennung auf ORM-, API- und PostgreSQL-Row-Level-Security-Ebene. Sie umfasst einen Abonnement-Lebenszyklus mit Testphase, Mahnwesen und Planlimits, mandantenbezogenes Rate Limiting sowie eine Engine für signierte ausgehende Webhooks mit Retries und Circuit Breaker.',
           stack: ['Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'Celery', 'Redis', 'Django Admin', 'pytest-django', 'Docker', 'Nginx']
         },
         {
           title: 'LedgerX – Plattform für Finanztransaktionen und Zahlungen',
+          url: 'https://github.com/Dhanushpv29/LedgerX',
           description: 'Ein Zahlungs-Backend, in dem Geld nie entsteht, verloren geht oder dupliziert wird. Jede Bewegung wird als unveränderliche Buchung der doppelten Buchführung gespeichert, Zahlungen folgen einem strikten Zustandsautomaten, und Transfer- und Zahlungs-APIs sind durch Idempotency-Keys geschützt. Hinzu kommen signierte Webhook-Zustellung mit Retries, Abgleich mit einem simulierten Zahlungsanbieter sowie Transaktionslimits und einfache Betrugsregeln.',
           stack: ['Python', 'FastAPI', 'Pydantic', 'PostgreSQL', 'SQLAlchemy', 'Alembic', 'Redis', 'RabbitMQ', 'Celery', 'pytest', 'Docker', 'GitHub Actions']
         },
         {
           title: 'FlowForge – Verteilte Workflow-Engine',
+          url: 'https://github.com/Dhanushpv29/FlowForge',
           description: 'Eine schlanke Workflow-Engine im Stil von Airflow oder Temporal, die abhängige Tasks auf verteilten Workern ausführt. Scheduler und Zustandsautomat liegen in PostgreSQL, Tasks werden per SKIP LOCKED übernommen. Dazu kommen DAG-Validierung, Retry-Richtlinien mit Backoff, Dead-Letter-Queues, Worker-Heartbeats mit Crash-Recovery, wiederkehrende Zeitpläne und eine vollständige Ausführungshistorie.',
           stack: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Alembic', 'Redis', 'RabbitMQ', 'Celery', 'pytest', 'Docker', 'GitHub Actions']
         },
         {
           title: 'TenantGate – Multi-Tenant-API-Plattform',
+          url: 'https://github.com/Dhanushpv29/TenantGate',
           description: 'Ein SaaS-Backend mit strikter Mandantentrennung, Zugriffskontrolle und nutzungsbasierter Abrechnung. Es kombiniert PostgreSQL Row-Level Security, fein granulares RBAC, API-Keys und OAuth2 mit Nutzungsmessung, Quoten und Planlimits sowie Redis-Token-Bucket-Rate-Limiting in Lua, das über mehrere API-Instanzen hinweg korrekt bleibt.',
           stack: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Alembic', 'Redis', 'OAuth2', 'Celery', 'RabbitMQ', 'pytest', 'Docker']
         }
@@ -211,29 +217,35 @@ const translations = {
 
     projects: {
       title: 'Selected Projects',
+      viewCode: 'View on GitHub',
       items: [
         {
           title: 'High-Concurrency Ticket Booking & Payment Platform',
+          url: 'https://github.com/Dhanushpv29/High-concurrency-booking-platform',
           description: 'A ticketing backend where thousands of users compete for the same limited seats at once. Atomic seat holds use row-level locking and database constraints so a seat is never sold twice, abandoned holds expire automatically, and idempotent payment and webhook handling copes with retries, duplicate events and late payments, with automatic refunds where needed. Tickets are issued asynchronously with QR codes and PDFs.',
           stack: ['Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'Celery', 'Redis', 'pytest-django', 'Docker', 'Gunicorn', 'Nginx']
         },
         {
           title: 'Multi-Tenant Logistics SaaS',
+          url: 'https://github.com/Dhanushpv29/Multi-tenant-Saas-with-billing-and-webhooks',
           description: 'A multi-tenant SaaS for delivery companies covering fleet, drivers, customers and deliveries, with role-based access and tenant isolation enforced at the ORM, API and PostgreSQL row-level-security layers. It includes a subscription lifecycle with trials, dunning and plan limits, per-tenant rate limiting, and a signed outbound webhook engine with retries and circuit breaking.',
           stack: ['Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'Celery', 'Redis', 'Django Admin', 'pytest-django', 'Docker', 'Nginx']
         },
         {
           title: 'LedgerX – Financial Transaction & Payment Platform',
+          url: 'https://github.com/Dhanushpv29/LedgerX',
           description: 'A payments backend in which money is never created, lost or duplicated. Every movement is stored as immutable double-entry ledger rows, payments follow a strict lifecycle state machine, and transfer and payment APIs are protected by idempotency keys. It also provides signed webhook delivery with retries, reconciliation against a simulated provider, and transaction limits with simple fraud rules.',
           stack: ['Python', 'FastAPI', 'Pydantic', 'PostgreSQL', 'SQLAlchemy', 'Alembic', 'Redis', 'RabbitMQ', 'Celery', 'pytest', 'Docker', 'GitHub Actions']
         },
         {
           title: 'FlowForge – Distributed Workflow Engine',
+          url: 'https://github.com/Dhanushpv29/FlowForge',
           description: 'A lightweight workflow engine, in the spirit of Airflow or Temporal, that runs dependent tasks across distributed workers. The scheduler and state machine live in PostgreSQL, with tasks claimed via SKIP LOCKED, plus DAG validation, retry policies with backoff, dead-letter queues, worker heartbeats with crash recovery, recurring schedules and a full execution history.',
           stack: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Alembic', 'Redis', 'RabbitMQ', 'Celery', 'pytest', 'Docker', 'GitHub Actions']
         },
         {
           title: 'TenantGate – Multi-Tenant API Platform',
+          url: 'https://github.com/Dhanushpv29/TenantGate',
           description: 'A SaaS backend with strict tenant isolation, access control and usage-based billing. It combines PostgreSQL row-level security, fine-grained RBAC, API keys and OAuth2 with usage metering, quotas and plan limits, plus Redis token-bucket rate limiting implemented in Lua that stays correct across multiple API instances.',
           stack: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Alembic', 'Redis', 'OAuth2', 'Celery', 'RabbitMQ', 'pytest', 'Docker']
         }
@@ -681,6 +693,17 @@ export default function Portfolio() {
                       </span>
                     ))}
                   </div>
+                  {project.url && (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 mt-5 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
+                    >
+                      <Github size={16} />
+                      {t.projects.viewCode}
+                    </a>
+                  )}
                 </motion.div>
               ))}
             </div>
