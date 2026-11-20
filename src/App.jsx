@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Mail, Github, MapPin, GraduationCap, Code, ChevronDown, Globe, Briefcase } from 'lucide-react';
+import Profile from "./assets/dhanush.png";
 
 // ──────────────────────────────────────────────────────────────
 // EDIT ME: personal details used across the whole site.
@@ -8,12 +9,13 @@ import { Mail, Github, MapPin, GraduationCap, Code, ChevronDown, Globe, Briefcas
 // to replace the initials avatar.
 // ──────────────────────────────────────────────────────────────
 const PROFILE = {
-  name: 'Your Name',
-  initials: 'YN',
-  email: 'your.email@example.com',
-  github: 'https://github.com/your-username',
-  resume: '#',
-  photo: null,
+  name: 'Dhanush',
+  fullName: 'Dhanush Palani Vijay Kumari',
+  initials: 'DPV',
+  email: 'dhanush.palani.vijay.kumari.job@gmail.com',
+  github: 'https://github.com/dhanushpv-25',
+  resume: 'https://drive.google.com/file/d/1q0rXWMYrmPgHnm3mlcB7CxTapwDnf0My/view?usp=sharing',
+  photo: Profile,
 };
 
 function Avatar() {
@@ -57,8 +59,8 @@ const translations = {
       jobs: [
         {
           title: 'Software Engineer – Python Backend',
-          company: '[Firmenname]',
-          duration: '07/2024 - Heute',
+          company: 'Jeeves Information Systems (Forterro)',
+          duration: '06/2023 - 01/2025',
           points: [
             'Verantworte die APIs für Auftragsverwaltung, Lieferanten und Logistik einer Microservices-Plattform und definierte Service-Grenzen, Datenmodelle und API-Verträge von der Konzeption bis zum Produktivbetrieb.',
             'Verbesserte die Performance stark genutzter Endpunkte durch Redis-Caching, PostgreSQL-Indexierung, asynchronen Datenbankzugriff und SQLAlchemy-Connection-Pooling.',
@@ -69,8 +71,8 @@ const translations = {
         },
         {
           title: 'Associate Software Engineer – Python Backend',
-          company: '[Firmenname]',
-          duration: '07/2022 - 06/2024',
+          company: 'Jeeves Information Systems (Forterro)',
+          duration: '05/2022 - 06/2023',
           points: [
             'Entwickelte und pflegte REST-APIs mit Django REST Framework und FastAPI, inklusive JWT-Authentifizierung, rollenbasierter Zugriffskontrolle, Eingabevalidierung und Admin-Panel-Logik.',
             'Entwarf PostgreSQL-Schemas und optimierte Abfragen mit Django ORM und SQLAlchemy und verwaltete Schemaänderungen über Alembic-Migrationen.',
@@ -85,9 +87,14 @@ const translations = {
       title: 'Bildung',
       items: [
         {
-          university: '[Name der Universität]',
+          university: 'Hochschule Hof, University of Applied Sciences',
+          year: '2026 - 2028',
+          degree: 'Master in Artificial Intelligence und Robotik'
+        },
+        {
+          university: 'Visvesvaraya Technological University',
           year: '2018 - 2022',
-          degree: 'Bachelor of Engineering in Informatik'
+          degree: 'Bachelor of Engineering in Information Science'
         }
       ]
     },
@@ -128,7 +135,7 @@ const translations = {
       phone: 'Telefonnummer',
       email: 'E-Mail',
       location: 'Standort',
-      locationValue: '[Stadt, Land]',
+      locationValue: 'Deutschland',
       button: 'Nachricht senden'
     }
   },
@@ -162,8 +169,8 @@ const translations = {
       jobs: [
         {
           title: 'Software Engineer – Python Backend',
-          company: '[Company Name]',
-          duration: '07/2024 - Present',
+          company: 'Jeeves Information Systems (Forterro)',
+          duration: '06/2023 - 01/2025',
           points: [
             'Own the order-management, supplier and logistics API services of a microservices platform, defining service boundaries, data models and API contracts from design through production.',
             'Improved performance of high-volume endpoints with Redis caching, PostgreSQL indexing, asynchronous database access and SQLAlchemy connection pooling.',
@@ -174,8 +181,8 @@ const translations = {
         },
         {
           title: 'Associate Software Engineer – Python Backend',
-          company: '[Company Name]',
-          duration: '07/2022 - 06/2024',
+          company: 'Jeeves Information Systems (Forterro)',
+          duration: '06/2022 - 05/2023',
           points: [
             'Built and maintained REST APIs with Django REST Framework and FastAPI, implementing JWT authentication, role-based access control, request validation and admin-panel logic.',
             'Designed PostgreSQL schemas and optimised queries using the Django ORM and SQLAlchemy, and managed schema changes through Alembic migrations.',
@@ -190,9 +197,14 @@ const translations = {
       title: 'Education',
       items: [
         {
-          university: '[University Name]',
+          university: 'Hochschule Hof, University of Applied Sciences',
+          year: '2026 - 2028',
+          degree: 'Master’s in Artificial Intelligence and Robotics'
+        },
+        {
+          university: 'Visvesvaraya Technological University',
           year: '2018 - 2022',
-          degree: 'Bachelor of Engineering in Computer Science'
+          degree: 'Bachelor of Engineering in Information Science'
         }
       ]
     },
@@ -233,7 +245,7 @@ const translations = {
       phone: 'Phone Number',
       email: 'Email',
       location: 'Location',
-      locationValue: '[City, Country]',
+      locationValue: 'Germany',
       button: 'Send Message'
     }
   }
@@ -451,13 +463,13 @@ export default function Portfolio() {
                 }}
                 className="relative w-full max-w-md mx-auto"
               >
-             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-white flex items-center justify-center">
-  <div className="w-full h-full p-4 flex items-center justify-center">
-    <div className="w-full h-full rounded-2xl overflow-hidden">
-      <Avatar />
-    </div>
-  </div>
-</div>
+                <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-white flex items-center justify-center">
+                  <div className="w-full h-full p-4 flex items-center justify-center">
+                    <div className="w-full h-full rounded-2xl overflow-hidden">
+                      <Avatar />
+                    </div>
+                  </div>
+                </div>
 
                 <motion.div
                   animate={{
@@ -749,13 +761,13 @@ export default function Portfolio() {
                 }}
                 className="relative w-full max-w-md mx-auto"
               >
-               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-white flex items-center justify-center">
-  <div className="w-full h-full p-4 flex items-center justify-center">
-    <div className="w-full h-full rounded-2xl overflow-hidden">
-      <Avatar />
-    </div>
-  </div>
-</div>
+                <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-white flex items-center justify-center">
+                  <div className="w-full h-full p-4 flex items-center justify-center">
+                    <div className="w-full h-full rounded-2xl overflow-hidden">
+                      <Avatar />
+                    </div>
+                  </div>
+                </div>
 
                 <motion.div
                   animate={{
@@ -818,7 +830,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-8 pt-8 border-t border-gray-200 text-center text-gray-500 text-sm"
           >
-            <p>© 2026 {PROFILE.name}. {language === 'de' ? 'Alle Rechte vorbehalten.' : 'All rights reserved.'}</p>
+            <p>© 2026 {PROFILE.fullName}. {language === 'de' ? 'Alle Rechte vorbehalten.' : 'All rights reserved.'}</p>
           </motion.div>
         </div>
       </footer>
