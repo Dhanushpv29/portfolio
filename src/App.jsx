@@ -14,7 +14,7 @@ const PROFILE = {
   initials: 'DPV',
   email: 'dhanush.palani.vijay.kumari.job@gmail.com',
   github: 'https://github.com/Dhanushpv29',
-  resume: 'https://drive.google.com/file/d/1q0rXWMYrmPgHnm3mlcB7CxTapwDnf0My/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/12ISUao7bMQuCTlG0XsH8VauDkKDS5TBM/view?usp=sharing',
   photo: Profile,
 };
 
@@ -62,11 +62,13 @@ const translations = {
           company: 'Jeeves Information Systems (Forterro)',
           duration: '06/2023 - 01/2025',
           points: [
-            'Verantworte die APIs für Auftragsverwaltung, Lieferanten und Logistik einer Microservices-Plattform und definierte Service-Grenzen, Datenmodelle und API-Verträge von der Konzeption bis zum Produktivbetrieb.',
-            'Verbesserte die Performance stark genutzter Endpunkte durch Redis-Caching, PostgreSQL-Indexierung, asynchronen Datenbankzugriff und SQLAlchemy-Connection-Pooling.',
-            'Entwickelte Celery- und Redis-Pipelines für ERP-Integrationen, geplante Jobs und Reporting, abgesichert durch Exponential-Backoff-Retries und Circuit-Breaker-Muster für unzuverlässige Drittsysteme.',
-            'Konzipierte sichere APIs mit JWT-Authentifizierung, rollenbasierter Zugriffskontrolle, Rate Limiting und API-Versionierung und integrierte Zahlungsanbieter von Drittanbietern.',
-            'Containerisierte Services mit Docker und Nginx, deployte per GitHub-Actions-CI/CD auf AWS, sicherte kritische Services mit hoher pytest-Abdeckung ab, ergänzte OpenTelemetry-Monitoring, analysierte Produktionsvorfälle und betreute Junior-Entwickler.'
+            'Verantwortung für die APIs zu Auftragsverwaltung, Lieferanten und Logistik innerhalb einer Microservices-Plattform, einschließlich Definition von Service-Grenzen, Datenmodellen und API-Verträgen vom Design bis in die Produktion.',
+    'Leistungssteigerung stark genutzter Endpunkte durch Redis-Caching, PostgreSQL-Indexierung, asynchronen Datenbankzugriff und SQLAlchemy-Connection-Pooling.',
+    'Aufbau von Celery- und Redis-Pipelines für ERP-Integrationen, geplante Jobs und Reporting, mit Exponential-Backoff-Retries und Circuit-Breaker-Mustern für zuverlässigere Anbindungen an Drittsysteme.',
+    'Entwurf sicherer, versionierter APIs mit JWT-Authentifizierung, rollenbasierter Zugriffskontrolle und Rate Limiting.',
+    'Refaktorierung und Neugestaltung zentraler Microservices in einer großen Datenpipeline (GCP, FastAPI, PostgreSQL, Docker, Redis, Event Sourcing, CircleCI, PyTest) durch Parallelisierung, was die Verarbeitung um das 100-Fache beschleunigte.',
+    'Entwicklung eines Echtzeit-Analytics-Dashboards mit React.js, Python und Django, wodurch die Effizienz der Datenverarbeitung um 60 % stieg.',
+    'Leitung von mehr als 6 Projekten in den Bereichen Cloud, DevOps und Backend-Entwicklung.'
           ]
         },
         {
@@ -74,10 +76,12 @@ const translations = {
           company: 'Jeeves Information Systems (Forterro)',
           duration: '05/2022 - 06/2023',
           points: [
-            'Entwickelte und pflegte REST-APIs mit Django REST Framework und FastAPI, inklusive JWT-Authentifizierung, rollenbasierter Zugriffskontrolle, Eingabevalidierung und Admin-Panel-Logik.',
-            'Entwarf PostgreSQL-Schemas und optimierte Abfragen mit Django ORM und SQLAlchemy und verwaltete Schemaänderungen über Alembic-Migrationen.',
-            'Entwickelte Redis-Caching und Celery-Hintergrundjobs für Benachrichtigungen, Rechnungsstellung und Berichtserstellung.',
-            'Schrieb Unit- und Integrationstests mit pytest, prüfte APIs mit Postman, dokumentierte API- und Datenbankdesign und beteiligte sich an Git-basierten Code-Reviews.'
+            'Entwicklung und Wartung von REST-APIs mit JWT-Authentifizierung, rollenbasierter Zugriffskontrolle und Request-Validierung.',
+    'Entwurf von PostgreSQL-Schemas und Optimierung von Abfragen.',
+    'Implementierung von Redis-Caching und Celery-Hintergrundjobs für Benachrichtigungen, Rechnungserstellung und Berichtsgenerierung.',
+    'Optimierung der MongoDB- und Redis-Nutzung, wodurch die Datenabrufgeschwindigkeit um 40 % stieg.',
+    'Aufbau eines internen Task-Management-Systems, das vollständig über das Django-Admin-Panel verwaltet wird.',
+    'Erstellung von pytest-Unit- und Integrationstests sowie Validierung der APIs mit Postman.'
           ]
         }
       ]
@@ -178,11 +182,13 @@ const translations = {
           company: 'Jeeves Information Systems (Forterro)',
           duration: '06/2023 - 01/2025',
           points: [
-            'Own the order-management, supplier and logistics API services of a microservices platform, defining service boundaries, data models and API contracts from design through production.',
-            'Improved performance of high-volume endpoints with Redis caching, PostgreSQL indexing, asynchronous database access and SQLAlchemy connection pooling.',
-            'Built Celery and Redis pipelines for ERP integrations, scheduled jobs and reporting, hardened with exponential-backoff retries and circuit-breaker patterns for unreliable third-party systems.',
-            'Designed secure APIs with JWT authentication, role-based access control, rate limiting and API versioning, and integrated third-party payment gateways.',
-            'Containerised services with Docker and Nginx, deployed to AWS using GitHub Actions CI/CD, maintained high pytest coverage on critical services, added OpenTelemetry monitoring, handled production incident debugging, and mentored junior developers.'
+            'Owned the order-management, supplier and logistics APIs within a microservices platform, defining service boundaries, data models and API contracts from design through production.',
+    'Improved performance of high-volume endpoints through Redis caching, PostgreSQL indexing, asynchronous database access and SQLAlchemy connection pooling.',
+    'Built Celery and Redis pipelines for ERP integrations, scheduled jobs and reporting, using exponential-backoff retries and circuit-breaker patterns to improve third-party integration reliability.',
+    'Designed secure, versioned APIs with JWT authentication, role-based access control and rate limiting.',
+    'Refactored and redesigned key microservices in a large-scale data pipeline (GCP, FastAPI, PostgreSQL, Docker, Redis, Event Sourcing, CircleCI, PyTest), parallelizing them for a 100x speed improvement.',
+    'Created a real-time analytics dashboard with React.js, Python and Django, increasing data processing efficiency by 60%.',
+    'Led 6+ projects across cloud, DevOps and backend development.'
           ]
         },
         {
@@ -190,10 +196,12 @@ const translations = {
           company: 'Jeeves Information Systems (Forterro)',
           duration: '06/2022 - 05/2023',
           points: [
-            'Built and maintained REST APIs with Django REST Framework and FastAPI, implementing JWT authentication, role-based access control, request validation and admin-panel logic.',
-            'Designed PostgreSQL schemas and optimised queries using the Django ORM and SQLAlchemy, and managed schema changes through Alembic migrations.',
-            'Developed Redis caching and Celery background jobs for notifications, invoicing and report generation.',
-            'Wrote unit and integration tests with pytest, verified APIs with Postman, documented API and database design, and took part in Git-based code reviews.'
+            'Developed and maintained REST APIs, implementing JWT authentication, role-based access control and request validation.',
+    'Designed PostgreSQL schemas and optimised queries.',
+    'Implemented Redis caching and Celery background jobs for notifications, invoicing and report generation.',
+    'Optimised MongoDB and Redis usage, improving data retrieval speed by 40%.',
+    'Built an internal Task Management System, fully managed through the Django Admin panel.',
+    'Wrote pytest unit and integration tests and validated APIs with Postman.'
           ]
         }
       ]
